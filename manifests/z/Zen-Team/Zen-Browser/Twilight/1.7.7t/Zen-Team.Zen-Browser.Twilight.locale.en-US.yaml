@@ -1,4 +1,4 @@
-# Created with komac v2.10.1
+# Created with komac v2.11.0
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
 
 PackageIdentifier: Zen-Team.Zen-Browser.Twilight
@@ -29,14 +29,10 @@ Tags:
 - zen
 ReleaseNotes: |-
   Commits
-  - 0e8646d: Refactor theme border-radius preference for consistency across platforms (mr. M)
-  - c76066c: Improve corner radius on windows for a more native and consistent look (Jupi) #5224
-  - d457e6f: Fixed urlbar hiding when entering on a composition state (mr. M)
-  - 7990bfe: Merge branch 'dev' of https://github.com/zen-browser/desktop into dev (mr. M)
-  - 2dbd80f: Increase minimum width of the urlbar to improve usability (mr. M)
-  - 84bf229: Fixed urlbar being hidden/glitched on fullscreen (mr. M)
-  - b5c889a: Refactor tab reset button label and clean up unused color scheme listener (mr. M)
-  - be2a44d: Added a timeout before the newtab url bar can clear it's content (mr. M)
+  - 5f72835: Set gfx.canvas.accelerated.cache-size to 256 by default (Jupi) #5342
+  - 855c362: Refactor tab overflow detection and adjust workspace initialization logic (mr. M)
+  - 48879fb: Enhance workspace tab initialization and update tab toolbar on load (mr. M)
+  - 07ede1b: Add Windows acrylic support and enhance toolbar transparency styles (mr. M)
 ReleaseNotesUrl: https://github.com/zen-browser/desktop/releases/tag/twilight
 Documentations:
 - DocumentLabel: About
